@@ -44,7 +44,9 @@ export default {
     length: Number,
   },
   data() {
-    return {};
+    return {
+      test: "",
+    };
   },
   emits: ["handleNextQuestion", "handleAnswerSelected", "reset"],
 };
